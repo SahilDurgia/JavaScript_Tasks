@@ -1,0 +1,64 @@
+.parent {
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background: darkgrey;
+}
+.parent div:first-child h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.parent div:first-child input {
+  border: 1px solid black;
+  width: 380px;
+  height: 40px;
+  margin-left: 6px;
+  margin-top: 9px;
+}
+.numberparent {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.numberparent div:first-child span,
+.numberparent div:nth-child(2) span,
+.numberparent div:nth-child(3) span,
+.numberparent div:nth-child(4) span {
+  border: 1px solid black;
+  border-radius: 18px;
+  width: 69px;
+  height: 51px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: aliceblue;
+  margin: 4px;
+  /* font-size: 30px; */
+}
+.numberparent div:first-child span p:first-child,
+.numberparent div:nth-child(2) span p:first-child,
+.numberparent div:nth-child(3) span p:first-child,
+.numberparent div:nth-child(4) span p:first-child {
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 11px;
+}
+.calcTextDisplay {
+  font-size: 35px;
+}
+.clear {
+  /* border: 2px solid; */
+  border: 2px solid;
+  border-radius: 21px;
+  width: 293px;
+  margin: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+.green {
+  background-color: aquamarine;
+}

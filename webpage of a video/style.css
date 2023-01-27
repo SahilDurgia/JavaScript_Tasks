@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 90%;
+  z-index: -1;
+  border: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+section div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  border: 0;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+}
+
+section div:nth-child(2) h2:first-child,
+section div:nth-child(2) h2:nth-child(2),
+section div:nth-child(2) h1:nth-child(3),
+section div:nth-child(2) button:last-child {
+  position: relative;
+  right: 10%;
+}
+
+section div:nth-child(2) h1:nth-child(3) {
+  font-size: 270%;
+}
+
+section div:nth-child(2) button:last-child {
+  background-color: #c70947;
+  color: white;
+  border: 0;
+  width: 120px;
+  height: 30px;
+  cursor: pointer;
+}
+
+section div:last-child {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 10vh;
+  background-color: #c70947;
+  color: white;
+  align-items: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  border: 0;
+}
+section div:last-child div:last-child ul li {
+  list-style: none;
+  padding-right: 40px;
+}
+
+section div:last-child h3 {
+  padding-left: 50px;
+  line-height: 3.5;
+  z-index: 2;
+}
+section div:last-child div:last-child ul {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  padding-left: 0px;
+  padding-right: 150px;
+  /* flex-wrap: wrap; */
+  background-color: #c70947;
+}
+section div:last-child div:last-child ul li a {
+  text-decoration: none;
+  color: white;
+}
