@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form With Local storage</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="parent">
+      <h2>User Details</h2>
+      <input type="text" name="fname" id="fname" placeholder="First Name" />
+      <div id="fnameMessage">
+        <!-- <p class="message">Add Valid First Name</p> -->
+        <!-- <p class="rightmessage">Hello Sahil Durgia</p> -->
+      </div>
+
+      <input type="text" name="lname" id="lname" placeholder="Last Name" />
+      <div id="lnameMessage">
+        <!-- <p class="message">Add Valid Last Name</p> -->
+      </div>
+
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <div id="emailMessage">
+        <!-- <p class="message">Add Valid Email id</p> -->
+        <!-- <p class="rightmessage">We will Mail deatils @</p> -->
+      </div>
+
+      <input
+        type="text"
+        name="contactNo"
+        id="contactNo"
+        placeholder="Contact No"
+      />
+      <div id="contactNoMessage">
+        <!-- <p class="message">Add Valid Contact No.</p> -->
+        <!-- <p class="rightmessage">We will call you on</p> -->
+      </div>
+
+      <input type="text" name="pincode" id="pincode" placeholder="Pin Code" />
+      <div id="pincodeMessage">
+        <!-- <p class="message">Add Valid Pincode</p> -->
+      </div>
+
+      <!-- <input type="text" name="addresh" id="addresh" placeholder="Addresh" /> -->
+      <textarea
+        name="addresh"
+        id="addresh"
+        cols="30"
+        rows="5"
+        placeholder="Full Addresh"
+      ></textarea>
+      <div id="addreshMessage">
+        <!-- <p class="message">Add Valid Addresh</p> -->
+        <!-- <p class="rightmessage">We will Gifts On this Addresh</p> -->
+      </div>
+
+      <div id="commonErrorMessage" style="height: fit-content">
+        <ul id="ul"></ul>
+      </div>
+
+      <input
+        type="submit"
+        value="Add deatils To Local Storage"
+        id="addDeatilsToLocalStorage"
+      />
+      <!-- <button></button>
+       -->
+      <a id="ViewAddeddetails" href="./view.html" target="_blank"
+        >View Added Details</a
+      >
+
+      <button id="RemoveFromLocalStorage">Remove From Local Storage</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

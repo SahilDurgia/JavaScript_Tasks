@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="message"></div>
+    <div class="parentOfinput">
+      <div class="userInputs">
+        <input
+          type="number"
+          name="expenseRupees"
+          id="expenseRupees"
+          placeholder="Expense Amount"
+        />
+        <input
+          type="text"
+          name="expenseRemarks"
+          id="expenseRemarks"
+          placeholder="Expense Remarks"
+        />
+
+        <select name="expenseType" id="expenseType">
+          <option value="" disabled selected>Select Expense Type</option>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+      </div>
+
+      <button id="submitBtn">Entry</button>
+
+      <button id="clear">Clear</button>
+    </div>
+    <div class="expenseUpdateMeassage">
+      <h1 class="green">Start Using The Calculater</h1>
+    </div>
+
+    <div class="parent">
+      <div class="income">
+        <div class="incomeHeading">
+          <h2>Income</h2>
+        </div>
+        <table border="1" class="incometable">
+          <tr class="table">
+            <td colspan="2">No.</td>
+            <td colspan="5">Amount</td>
+            <td colspan="6">Iteam's Description</td>
+          </tr>
+
+          <!-- <tr class="table">
+            <td colspan="2">1</td>
+            <td colspan="5">Amount</td>
+            <td colspan="6">Iteam's Description</td>
+          </tr> -->
+        </table>
+
+        <div class="totalIncome">
+          <p>Total Income:</p>
+        </div>
+      </div>
+
+      <div class="expense">
+        <div class="expenseHeading">
+          <h2>Expense</h2>
+        </div>
+        <table border="1" class="expensetable">
+          <tr class="table">
+            <td colspan="2">No.</td>
+            <td colspan="5">Amount</td>
+            <td colspan="6">Iteam's Description</td>
+          </tr>
+
+          <!-- <tr class="table">
+                  <td colspan="2">1</td>
+                  <td colspan="5">Amount</td>
+                  <td colspan="6">Iteam's Description</td>
+                </tr> -->
+        </table>
+
+        <div class="totalexpense">
+          <p>Total Expense:</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

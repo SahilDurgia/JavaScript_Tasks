@@ -1,0 +1,17 @@
+#parent {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+  font-family: "Poppins", sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+#parent h2 {
+  margin: auto;
+}
+
+.red {
+  color: red;
+}

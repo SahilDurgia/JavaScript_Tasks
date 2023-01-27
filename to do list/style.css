@@ -1,0 +1,40 @@
+#task img {
+  width: 47px;
+  height: 40px;
+  margin: 0px 10px;
+}
+#parent {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#parent div:nth-child(2) {
+  display: flex;
+  width: 400px;
+}
+#parent div:nth-child(2) input {
+  width: 75%;
+  margin-right: 10px;
+  padding: 5px;
+}
+#parent div:nth-child(2) button {
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+#task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.text {
+  text-decoration: line-through;
+  color: rgb(120, 119, 119);
+}

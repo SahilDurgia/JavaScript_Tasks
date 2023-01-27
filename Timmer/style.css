@@ -1,0 +1,22 @@
+.parent,
+.parent2,
+.parent3 {
+  display: flex;
+  /* margin: 10px; */
+  /* width: 100px; */
+}
+
+.parent div,
+.parent2 div,
+.parent3 div {
+  display: flex;
+  background-color: orangered;
+  width: 85px;
+  height: 65px;
+  border: 2px solid white;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 5px;
+}

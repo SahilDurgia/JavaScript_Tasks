@@ -1,0 +1,82 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 35vw;
+  font-family: "Poppins", sans-serif;
+  /* align-items: center; */
+}
+.parent h2 {
+  margin: auto;
+}
+.parent input {
+  /* margin-bottom: 10px; */
+  padding: 5px;
+}
+
+.parent button,
+#addDeatilsToLocalStorage,
+a {
+  color: white;
+  background-color: black;
+  width: 200px;
+  margin: 5px auto;
+  height: 26px;
+  align-items: center;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent div {
+  /* background-color: aliceblue; */
+  width: fit-content;
+  height: 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  color: red;
+  font-size: small;
+  font-family: monospace;
+}
+.rightmessage {
+  color: blueviolet;
+  font-size: small;
+}
+/*  */
+.red {
+  background-color: rgba(245, 45, 45, 0.559);
+}
+
+.green {
+  background-color: rgba(127, 255, 212, 0.559);
+}
+@media (min-width: 240px) {
+  .parent {
+    width: 80vw;
+  }
+}
+@media (min-width: 320px) {
+  .parent {
+    width: 80vw;
+  }
+}
+@media (min-width: 567px) {
+  .parent {
+    width: 60vw;
+  }
+}
+@media (min-width: 767px) {
+  .parent {
+    width: 35vw;
+  }
+}
